@@ -1,0 +1,93 @@
+/*General CSS*/
+body {
+  padding-top: 100px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: blue;
+}
+h1 {
+  font-size: 36px;
+}
+h2 {
+  font-size: 30px;
+}
+h1,
+h2 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-weight: normal;
+}
+p {
+  font-size: 14px;
+  line-height: 21px;
+  margin-bottom: 20px;
+}
+.main container {
+  width: 100%;
+  margin: 0 auto;
+}
+.single-row {
+  width: 100%;
+}
+/*Header*/
+.col-left img {
+  width: 62%;
+}
+.col-right {
+  width: 65%;
+}
+.col-left,
+.col-right {
+  float: left-center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.btn {
+  padding: 10px 16px;
+  font-size: 16px;
+  line-height: 20px;
+  border-radius: 28px;
+  color: crimson;
+  background-color: cyan;
+  text-decoration: maroon;
+  display: inline-block;
+  text-transform: uppercase;
+}
+.clear-fix {
+  clear: both;
+}
+hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 0;
+  border-top: 1px solid coral;
+}
+/*features*/
+.col-1,
+.col-2,
+.col-3 {
+  width: 30%;
+  float: left;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.bt-info {
+  display: inline-block;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: normal;
+  cursor: pointer;
+  border: 1px solid darkturquoise;
+  border-radius: 4px;
+  text-decoration: deeppink;
+  color: #000;
+}
+.bt-info:hover {
+  color: lightsalmon;
+  background-color: tomato;
+  border-color: mediumspringgreen;
+}
+/*footer*/
+.col-footer {
+  padding: 30px 0;
+}
